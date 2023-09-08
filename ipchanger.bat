@@ -37,14 +37,14 @@ GOTO MENU
 :WIFIOFF
 ECHO.
 netsh interface set interface "Wi-Fi" DISABLED
-ECHO IP Berhasi diubah menjadi Dynamic
+ECHO Wi-Fi Berhasil dimatikan
 ECHO ===============================================
 ECHO.
 GOTO MENU
 :WIFION
 ECHO.
 netsh interface set interface "Wi-Fi" ENABLED
-ECHO IP Berhasi diubah menjadi Dynamic
+ECHO Wi-Fi Berhasil dinyalakan
 ECHO ===============================================
 ECHO.
 GOTO MENU
